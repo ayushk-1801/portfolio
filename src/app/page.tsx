@@ -56,7 +56,7 @@ export default function Page() {
 				<div className="tracking-[0.4em]">ABOUT ME</div>
 				<div className="flex items-center">
 					<div className="text-6xl font-semibold text-stone-500 dark:text-stone-400 leading-none">
-						I'm a dedicated
+						I&apos;m a dedicated
 						<span className="text-orange-600"> full stack web developer </span>
 						with a focus on building efficient, scalable, and impactful web
 						applications. I am currently pursuing a B.Tech degree at IIIT Delhi.
@@ -152,7 +152,7 @@ export default function Page() {
 												and user-friendly, while also fostering collaboration
 												and innovation in research. By bringing together
 												opportunities and talent, Universe aims to support the
-												growth of students' academic careers and contribute to
+												growth of students&apos; academic careers and contribute to
 												the advancement of research across various fields.
 											</div>
 											<div className="mt-4">
