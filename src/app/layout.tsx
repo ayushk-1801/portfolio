@@ -21,19 +21,19 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-	title: {
-		default: "Ayush Kumar Anand",
-		template: `%s | ${DATA.name}`,
-	},
-	description: DATA.description,
-	openGraph: {
-		title: `${DATA.name}`,
-		description: DATA.description,
-		url: DATA.url,
-		siteName: `${DATA.name}`,
-		locale: "en_US",
-		type: "website",
-	},
+  title: {
+    default: "Ayush Kumar Anand",
+    template: "",
+   },
+   description: "",
+   openGraph: {
+    title: "Ayush Kumar Anand",
+    description: "",
+    url: "",
+    siteName: "Ayush Kumar Anand",
+    locale: "en_US",
+    type: "website",
+   },
 	robots: {
 		index: true,
 		follow: true,
