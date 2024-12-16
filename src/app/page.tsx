@@ -54,14 +54,60 @@ export default function Page() {
 
 			<div id="about">
 				<div className="tracking-[0.4em]">ABOUT ME</div>
-				<div className="flex items-center">
+				<div className="flex items-center mt-6">
 					<div className="text-6xl font-semibold text-stone-500 dark:text-stone-400 leading-none">
 						I&apos;m a dedicated
 						<span className="text-orange-600"> full stack web developer </span>
 						with a focus on building efficient, scalable, and impactful web
-						applications. I am currently pursuing a B.Tech degree at IIIT Delhi.
-						Alongside my studies, I actively work on projects that push me to
-						learn, innovate, and grow as a developer.
+						applications. I am currently pursuing B.Tech at IIIT Delhi.
+						Alongside my studies, I actively contribute to
+						<span className="text-orange-600"> open source </span>
+						and work on projects that challenge me to learn, innovate, and grow
+						as a developer.{" "}
+					</div>
+				</div>
+			</div>
+
+			<div id="achievements">
+				<div className="my-40">
+					<div className="tracking-[0.4em]">ACHIEVEMENTS</div>
+					<div className="text-stone-500 dark:text-stone-400">
+						<Accordion type="multiple">
+							<AccordionItem value="item-1">
+								<AccordionTrigger className="text-5xl font-medium">
+									<div className="flex gap-36 w-full">
+										<div>2024</div>
+										<div>Smart India Hackathon Finalist</div>
+									</div>
+								</AccordionTrigger>
+								<AccordionContent>
+									<div className="flex flex-row justify-between items-start">
+										<div className="w-full max-w-[800px] justify-start">
+											<div>
+												The Smart India Hackathon (SIH) is the world&apos;s
+												largest open innovation platform that encourages
+												students to solve real-world problems posed by
+												industries, government departments, and NGOs. It
+												promotes creativity, innovation, and teamwork among
+												young developers. I am proud to be a finalist for SIH
+												2024, showcasing my ability to tackle impactful
+												challenges and deliver scalable solutions. We developed
+												RE-DACT, an online tool that helps users redact personal
+												and sensitive information from text or documents
+											</div>
+										</div>
+										<div className="justify-end">
+											<Image
+												src="/sih.jpeg"
+												alt="Redact"
+												width={300}
+												height={300}
+											/>
+										</div>
+									</div>
+								</AccordionContent>
+							</AccordionItem>
+						</Accordion>
 					</div>
 				</div>
 			</div>
@@ -98,7 +144,7 @@ export default function Page() {
 									REDACT
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-center">
+									<div className="flex flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												RE-DACT is an online tool that helps users redact
@@ -139,7 +185,7 @@ export default function Page() {
 									UNIVERSE
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-center">
+									<div className="flex flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Universe is an online platform that bridges the gap
@@ -152,8 +198,8 @@ export default function Page() {
 												and user-friendly, while also fostering collaboration
 												and innovation in research. By bringing together
 												opportunities and talent, Universe aims to support the
-												growth of students&apos; academic careers and contribute to
-												the advancement of research across various fields.
+												growth of students&apos; academic careers and contribute
+												to the advancement of research across various fields.
 											</div>
 											<div className="mt-4">
 												<Button asChild>
@@ -183,7 +229,7 @@ export default function Page() {
 									MEDIUM
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-center">
+									<div className="flex flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Medium is a blogging platform where writers can publish
@@ -232,7 +278,7 @@ export default function Page() {
 									CROP BUDDY
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-center">
+									<div className="flex flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Crop Buddy is an app designed to help farmers identify

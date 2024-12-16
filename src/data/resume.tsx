@@ -5,9 +5,6 @@ import { HomeIcon, NotebookIcon, Cog, FolderKanban, Info } from "lucide-react";
 export const DATA = {
 	navbar: [
 		{ href: "/", icon: HomeIcon, label: "Home" },
-		{ href: "#about", icon: Info, label: "About Me" },
-		{ href: "#skills", icon: Cog, label: "Skills" },
-		{ href: "#projects", icon: FolderKanban, label: "Projects" },
 		{ href: "/blog", icon: NotebookIcon, label: "Blog" },
 	],
 	contact: {
