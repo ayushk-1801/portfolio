@@ -13,6 +13,7 @@ import {
 	SiTypescript,
 	SiRust,
 	SiDocker,
+	SiSupabase,
 	SiPython,
 	SiCplusplus,
 } from "react-icons/si";
@@ -29,7 +30,7 @@ import { Button } from "@/components/ui/button";
 export default function Page() {
 	return (
 		<div className="w-full justify-center text-xl">
-			<div className="items-center justify-center h-screen">
+			<div className="items-center justify-center sm:h-screen sm:mb-0 mb-36">
 				<div className="w-full justify-center flex mt-32">
 					{/* <Image
 						src="/me.jpeg"
@@ -39,10 +40,10 @@ export default function Page() {
 						className="rounded-full"
 					/> */}
 				</div>
-				<div className="justify-center w-full flex tracking-[0.4em] pt-4">
+				<div className="justify-center w-full flex tracking-[0.4em] pt-4 lg:text-2xl md:text-xl sm:text-lg text-sm">
 					AYUSH KUMAR ANAND
 				</div>
-				<div className="flex flex-col justify-center text-7xl font-semibold capitalize text-stone-500 dark:text-stone-400 w-full items-center mt-5">
+				<div className="flex flex-col justify-center lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-semibold capitalize text-stone-500 dark:text-stone-400 w-full items-center mt-5">
 					<div>CRAFTING</div>
 					<div>SOLUTIONS THAT</div>
 					<div>BLEND</div>
@@ -53,9 +54,11 @@ export default function Page() {
 			</div>
 
 			<div id="about">
-				<div className="tracking-[0.4em]">ABOUT ME</div>
+				<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
+					ABOUT ME
+				</div>
 				<div className="flex items-center mt-6">
-					<div className="text-6xl font-semibold text-stone-500 dark:text-stone-400 leading-none">
+					<div className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-semibold text-stone-500 dark:text-stone-400 leading-10">
 						I&apos;m a dedicated
 						<span className="text-orange-600"> full stack web developer </span>
 						with a focus on building efficient, scalable, and impactful web
@@ -70,18 +73,20 @@ export default function Page() {
 
 			<div id="achievements">
 				<div className="my-40">
-					<div className="tracking-[0.4em]">ACHIEVEMENTS</div>
+					<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
+						ACHIEVEMENTS
+					</div>
 					<div className="text-stone-500 dark:text-stone-400">
 						<Accordion type="multiple">
 							<AccordionItem value="item-1">
-								<AccordionTrigger className="text-5xl font-medium">
-									<div className="flex gap-36 w-full">
+								<AccordionTrigger className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium">
+									<div className="flex lg:gap-36 md:gap-28 sm:gap-16 gap-8 w-full">
 										<div>2024</div>
 										<div>Smart India Hackathon Finalist</div>
 									</div>
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-start">
+									<div className="sm:flex sm:flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												The Smart India Hackathon (SIH) is the world&apos;s
@@ -96,7 +101,7 @@ export default function Page() {
 												and sensitive information from text or documents
 											</div>
 										</div>
-										<div className="justify-end">
+										<div className="justify-center items-center w-full flex sm:justify-end">
 											<Image
 												src="/sih.jpeg"
 												alt="Redact"
@@ -113,8 +118,10 @@ export default function Page() {
 			</div>
 
 			<div id="skills">
-				<div className="tracking-[0.4em] mt-40">SKILLS</div>
-				<div className="mt-6 text-6xl font-semibold text-stone-500 dark:text-stone-400 leading-none grid grid-cols-6 gap-16">
+				<div className="tracking-[0.4em] mt-40 lg:text-2xl md:text-xl sm:text-lg text-sm">
+					SKILLS
+				</div>
+				<div className="mt-6 lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-semibold text-stone-500 dark:text-stone-400 leading-none grid gap-16 md:grid-cols-6 sm:grid-cols-4 grid-cols-3">
 					<Skill Icon={SiJavascript} name="JavaScript" />
 					<Skill Icon={SiTypescript} name="TypeScript" />
 					<Skill Icon={SiReact} name="React" />
@@ -125,6 +132,7 @@ export default function Page() {
 					<Skill Icon={SiPrisma} name="Prisma" />
 					<Skill Icon={SiTailwindcss} name="TailwindCSS" />
 					<Skill Icon={SiDocker} name="Docker" />
+					<Skill Icon={SiSupabase} name="Supabase" />
 					<Skill Icon={SiGit} name="Git" />
 					<Skill Icon={SiGithub} name="GitHub" />
 					<Skill Icon={IoLogoElectron} name="Electron" />
@@ -136,15 +144,17 @@ export default function Page() {
 
 			<div id="projects">
 				<div className="my-40">
-					<div className="tracking-[0.4em]">PROJECTS</div>
+					<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
+						PROJECTS
+					</div>
 					<div className="text-stone-500 dark:text-stone-400">
 						<Accordion type="multiple">
 							<AccordionItem value="item-1">
-								<AccordionTrigger className="text-6xl tracking-[0.2em] font-semibold">
+								<AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
 									REDACT
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-start">
+									<div className="sm:flex sm:flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												RE-DACT is an online tool that helps users redact
@@ -157,7 +167,7 @@ export default function Page() {
 												solution for safely sharing documents without exposing
 												sensitive details.
 											</div>
-											<div className="mt-4">
+											<div className="my-4">
 												<Button asChild>
 													<a
 														href="https://github.com/ayushk-1801/redact"
@@ -169,7 +179,7 @@ export default function Page() {
 												</Button>
 											</div>
 										</div>
-										<div className="justify-end">
+										<div className="justify-center items-center w-full flex sm:justify-end">
 											<Image
 												src="/redact.png"
 												alt="Redact"
@@ -181,11 +191,11 @@ export default function Page() {
 								</AccordionContent>
 							</AccordionItem>
 							<AccordionItem value="item-2">
-								<AccordionTrigger className="text-6xl tracking-[0.2em] font-semibold">
+								<AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
 									UNIVERSE
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-start">
+									<div className="sm:flex sm:flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Universe is an online platform that bridges the gap
@@ -201,7 +211,7 @@ export default function Page() {
 												growth of students&apos; academic careers and contribute
 												to the advancement of research across various fields.
 											</div>
-											<div className="mt-4">
+											<div className="my-4">
 												<Button asChild>
 													<a
 														href="https://github.com/ayushk-1801/universe"
@@ -213,7 +223,7 @@ export default function Page() {
 												</Button>
 											</div>
 										</div>
-										<div className="justify-end">
+										<div className="justify-center items-center w-full flex sm:justify-end">
 											<Image
 												src="/universe.png"
 												alt="Redact"
@@ -225,11 +235,11 @@ export default function Page() {
 								</AccordionContent>
 							</AccordionItem>
 							<AccordionItem value="item-3">
-								<AccordionTrigger className="text-6xl tracking-[0.2em] font-semibold">
-									MEDIUM
+								<AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
+									MEDIUM CLONE
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-start">
+									<div className="sm:flex sm:flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Medium is a blogging platform where writers can publish
@@ -241,7 +251,7 @@ export default function Page() {
 												professional writers to share their ideas with a broad
 												audience.
 											</div>
-											<div className="mt-4 flex gap-4">
+											<div className="my-4 flex gap-4">
 												<Button asChild>
 													<a
 														href="https://github.com/ayushk-1801/medium"
@@ -262,7 +272,7 @@ export default function Page() {
 												</Button>
 											</div>
 										</div>
-										<div className="justify-end">
+										<div className="justify-center items-center w-full flex sm:justify-end">
 											<Image
 												src="/medium.png"
 												alt="Redact"
@@ -274,11 +284,11 @@ export default function Page() {
 								</AccordionContent>
 							</AccordionItem>
 							<AccordionItem value="item-4">
-								<AccordionTrigger className="text-6xl tracking-[0.2em] font-semibold">
+								<AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
 									CROP BUDDY
 								</AccordionTrigger>
 								<AccordionContent>
-									<div className="flex flex-row justify-between items-start">
+									<div className="sm:flex sm:flex-row justify-between items-start">
 										<div className="w-full max-w-[800px] justify-start">
 											<div>
 												Crop Buddy is an app designed to help farmers identify
@@ -293,7 +303,7 @@ export default function Page() {
 												tool for farmers seeking to protect their crops and make
 												informed decisions about disease management.
 											</div>
-											<div className="mt-4">
+											<div className="my-4">
 												<Button asChild>
 													<a
 														href="https://github.com/ayushk-1801/Crop-Disease-Detection"
@@ -305,7 +315,7 @@ export default function Page() {
 												</Button>
 											</div>
 										</div>
-										<div className="justify-end">
+										<div className="justify-center items-center w-full flex sm:justify-end">
 											<Image
 												src="/redact.png"
 												alt="Redact"

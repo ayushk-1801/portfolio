@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const poppins = Poppins({
 	subsets: ["latin"],
@@ -21,19 +22,19 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Ayush Kumar Anand",
-    template: "",
-   },
-   description: "",
-   openGraph: {
-    title: "Ayush Kumar Anand",
-    description: "",
-    url: "",
-    siteName: "Ayush Kumar Anand",
-    locale: "en_US",
-    type: "website",
-   },
+	title: {
+		default: "Ayush Kumar Anand",
+		template: "",
+	},
+	description: "",
+	openGraph: {
+		title: "Ayush Kumar Anand",
+		description: "",
+		url: "",
+		siteName: "Ayush Kumar Anand",
+		locale: "en_US",
+		type: "website",
+	},
 	robots: {
 		index: true,
 		follow: true,
@@ -62,6 +63,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
+			<Head>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 			<body
 				className={cn(
 					"min-h-screen bg-background antialiased max-w-7xl mx-auto py-12 sm:py-24 px-6",
