@@ -63,16 +63,14 @@ export default function Page() {
 						<span className="text-orange-600"> full stack web developer </span>
 						with a focus on building efficient, scalable, and impactful web
 						applications. I am currently pursuing B.Tech at IIIT Delhi.
-						Alongside my studies, I actively contribute to
-						<span className="text-orange-600"> open source </span>
-						and work on projects that challenge me to learn, innovate, and grow
-						as a developer.{" "}
+						Alongside my studies, I work on projects that challenge me to learn,
+						innovate, and grow as a developer.{" "}
 					</div>
 				</div>
 			</div>
 
 			<div id="achievements">
-				<div className="my-40">
+				<div className="sm:my-40 my-20">
 					<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
 						ACHIEVEMENTS
 					</div>
@@ -118,7 +116,7 @@ export default function Page() {
 			</div>
 
 			<div id="skills">
-				<div className="tracking-[0.4em] mt-40 lg:text-2xl md:text-xl sm:text-lg text-sm">
+				<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
 					SKILLS
 				</div>
 				<div className="mt-6 lg:text-6xl md:text-5xl sm:text-4xl text-2xl font-semibold text-stone-500 dark:text-stone-400 leading-none grid gap-16 md:grid-cols-6 sm:grid-cols-4 grid-cols-3">
@@ -143,7 +141,7 @@ export default function Page() {
 			</div>
 
 			<div id="projects">
-				<div className="my-40">
+				<div className="sm:my-40 my-20">
 					<div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
 						PROJECTS
 					</div>
