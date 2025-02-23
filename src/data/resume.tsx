@@ -5,7 +5,7 @@ import { HomeIcon, NotebookIcon, Cog, FolderKanban, Info } from "lucide-react";
 export const DATA = {
 	navbar: [
 		{ href: "/", icon: HomeIcon, label: "Home" },
-		{ href: "/blog", icon: NotebookIcon, label: "Blog" },
+		// { href: "/blog", icon: NotebookIcon, label: "Blog" },
 	],
 	contact: {
 		email: "hello@example.com",

@@ -9,6 +9,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
+import { GeistSans } from 'geist/font/sans';
 
 const poppins = Poppins({
 	subsets: ["latin"],
@@ -70,7 +71,7 @@ export default function RootLayout({
 			<body
 				className={cn(
 					"min-h-screen bg-background antialiased max-w-7xl mx-auto py-12 sm:py-24 px-6",
-					poppins.className,
+					GeistSans.className,
 				)}
 			>
 				<ThemeProvider attribute="class" defaultTheme="dark">
