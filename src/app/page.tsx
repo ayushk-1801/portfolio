@@ -25,6 +25,7 @@ import {
   SiCloudflare,
   SiDart,
   SiFlutter,
+  SiTurborepo,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { IoLogoElectron, IoShield } from "react-icons/io5";
@@ -253,6 +254,7 @@ export default function Page() {
             <Skill Icon={SiTypescript} name="TypeScript" />
             <Skill Icon={SiReact} name="React" />
             <Skill Icon={SiNextdotjs} name="Nextjs" />
+            <Skill Icon={SiTurborepo} name="Turborepo" />
             <Skill Icon={SiNodedotjs} name="Nodejs" />
             <Skill Icon={SiExpress} name="Express" />
             <Skill Icon={SiMongodb} name="MongoDB" />
@@ -263,7 +265,6 @@ export default function Page() {
             <Skill Icon={SiDocker} name="Docker" />
             <Skill Icon={SiSupabase} name="Supabase" />
             <Skill Icon={SiRazorpay} name="Razorpay" />
-            <Skill Icon={SiStripe} name="Stripe" />
             <Skill Icon={SiPostman} name="Postman" />
             <Skill Icon={SiGit} name="Git" />
             <Skill Icon={SiGithub} name="GitHub" />
