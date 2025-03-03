@@ -17,7 +17,6 @@ import {
   SiDocker,
   SiSupabase,
   SiRazorpay,
-  SiStripe,
   SiPostman,
   SiPython,
   SiScikitlearn,
@@ -119,10 +118,6 @@ export default function Page() {
                             ,{" "}
                             <strong className="dark:text-white text-black">
                               TypeScript
-                            </strong>
-                            ,{" "}
-                            <strong className="dark:text-white text-black">
-                              Drizzle ORM
                             </strong>{" "}
                             and{" "}
                             <strong className="dark:text-white text-black">
@@ -357,7 +352,7 @@ export default function Page() {
                           </Badge>
                         </div>
                       </div>
-                      <div className="justify-center items-center w-full flex sm:justify-end">
+                      <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
                           src="/redact.png"
                           alt="Redact"
@@ -472,10 +467,10 @@ export default function Page() {
                           </Badge>
                         </div>
                       </div>
-                      <div className="justify-center items-center w-full flex sm:justify-end">
+                      <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
                           src="/universe.png"
-                          alt="Redact"
+                          alt="Universe"
                           width={300}
                           height={300}
                         />
@@ -591,10 +586,10 @@ export default function Page() {
                           </Badge>
                         </div>
                       </div>
-                      <div className="justify-center items-center w-full flex sm:justify-end">
+                      <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
                           src="/medium.png"
-                          alt="Redact"
+                          alt="Medium"
                           width={300}
                           height={300}
                         />
@@ -667,7 +662,7 @@ export default function Page() {
                           </Badge>
                         </div>
                       </div>
-                      <div className="justify-center items-center w-full flex sm:justify-end">
+                      <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
                           src="/redact.png"
                           alt="Redact"
