@@ -104,14 +104,14 @@ export default function Page() {
                     <div className="sm:flex sm:flex-row justify-between items-start">
                       <div className="w-full max-w-[800px] justify-start">
                         <ul className="list-disc pl-6 space-y-2">
-                          <li>
+                            <li>
                             Designed and developed a feature-rich event booking
-                            platform catering to comedy, poetry, and music
-                            shows, both online and offline, enhancing audience
+                            platform catering to <strong className="dark:text-white text-black">
+                            comedy, poetry, and music shows</strong>, both online and offline, enhancing audience
                             engagement and accessibility.
-                          </li>
-                          <li>
-                            Led the end-to-end development of the platform using{" "}
+                            </li>
+                            <li>
+                            Led the <strong className="dark:text-white text-black">end-to-end development</strong> of the platform using{" "}
                             <strong className="dark:text-white text-black">
                               Next.js
                             </strong>
@@ -119,33 +119,48 @@ export default function Page() {
                             <strong className="dark:text-white text-black">
                               TypeScript
                             </strong>{" "}
+                            ,{" "}
+                            <strong className="dark:text-white text-black">
+                              Prisma
+                            </strong>{" "}
                             and{" "}
                             <strong className="dark:text-white text-black">
                               Supabase
                             </strong>
                             , ensuring a seamless user experience, high
                             performance, and scalability.
-                          </li>
-                          <li>
-                            Built a comprehensive admin dashboard for event
+                            </li>
+                            <li>
+                            Built a <strong className="dark:text-white text-black">comprehensive admin dashboard</strong> for event
                             organizers, enabling effortless event creation,
                             dynamic ticket pricing, attendee management, and
                             revenue tracking.
-                          </li>
-                          <li>
+                            </li>
+                            <li>
                             Implemented performance optimizations, boosting page
-                            speed by 40% and improving SEO rankings for greater
+                            speed by <strong className="dark:text-white text-black">40%</strong> and improving <strong className="dark:text-white text-black">SEO rankings</strong> for greater
                             discoverability.
-                          </li>
-                          <li>
+                            </li>
+                            <li>
                             Integrated{" "}
                             <strong className="dark:text-white text-black">
                               Razorpay
                             </strong>{" "}
-                            for secure and efficient payment processing,
+                            for <strong className="dark:text-white text-black">secure and efficient payment processing</strong>,
                             streamlining the ticketing experience for users.
-                          </li>
+                            </li>
                         </ul>
+                        <div className="my-4">
+                          <Button className="hover:bg-orange-600" asChild>
+                            <a
+                              href="https://audient-monorepo-user.vercel.app/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Live
+                            </a>
+                          </Button>
+                        </div>
                       </div>
                       <div className="justify-center items-center w-full h-full flex sm:justify-end">
                         <Image
@@ -187,8 +202,8 @@ export default function Page() {
                             <strong className="dark:text-white text-black">
                               Smart India Hackathon 2024
                             </strong>
-                            , the world&apos;s largest open innovation platform where
-                            students solve real-world problems.
+                            , the world&apos;s largest open innovation platform
+                            where students solve real-world problems.
                           </li>
                           <li>
                             Led a team of 6 to develop{" "}
@@ -281,6 +296,157 @@ export default function Page() {
               <Accordion type="multiple">
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
+                    CVISION
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="sm:flex sm:flex-row justify-between items-start">
+                      <div className="w-full max-w-[800px] justify-start">
+                        <ul className="list-disc pl-6 space-y-2">
+                          <li>
+                            Developed{" "}
+                            <strong className="dark:text-white text-black">
+                              CVISION
+                            </strong>
+                            , an AI-powered recruitment platform for automated{" "}
+                            <strong className="dark:text-white text-black">
+                              CV analysis
+                            </strong>{" "}
+                            and{" "}
+                            <strong className="dark:text-white text-black">
+                              candidate matching
+                            </strong>
+                            .
+                          </li>
+                          <li>
+                            Implemented intelligent algorithms to extract{" "}
+                            <strong className="dark:text-white text-black">
+                              skills, experience, and qualifications
+                            </strong>{" "}
+                            from resumes with high accuracy.
+                          </li>
+                          <li>
+                            Built a seamless interface for recruiters to{" "}
+                            <strong className="dark:text-white text-black">
+                              post job openings
+                            </strong>{" "}
+                            and{" "}
+                            <strong className="dark:text-white text-black">
+                              shortlist candidates
+                            </strong>{" "}
+                            based on AI-driven match scoring.
+                          </li>
+                          <li>
+                            Designed a secure authentication system with{" "}
+                            <strong className="dark:text-white text-black">
+                              company email OTP verification
+                            </strong>{" "}
+                            to ensure trusted recruiter access.
+                          </li>
+                          <li>
+                            Optimized platform performance, reducing{" "}
+                            <strong className="dark:text-white text-black">
+                              candidate screening time by 60%
+                            </strong>{" "}
+                            and{" "}
+                            <strong className="dark:text-white text-black">
+                              improving hiring efficiency
+                            </strong>
+                            .
+                          </li>
+                        </ul>
+
+                        <div className="my-4 flex gap-4">
+                          <Button className="hover:bg-orange-600" asChild>
+                            <a
+                              href="https://github.com/ayushk-1801/cvision"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Github
+                            </a>
+                          </Button>
+                          <Button className="hover:bg-orange-600" asChild>
+                            <a
+                              href="https://cvision.vercel.app/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Live
+                            </a>
+                          </Button>
+                        </div>
+                        <div className="flex gap-2">
+                          <Badge>
+                            <SiTypescript
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            TypeScript
+                          </Badge>
+                          <Badge>
+                            <SiNextdotjs
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            Nextjs
+                          </Badge>
+                          <Badge>
+                            <SiPostgresql
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            PostgresSQL
+                          </Badge>
+                          <Badge>
+                            <SiPrisma
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            Prisma
+                          </Badge>
+                          <Badge>
+                            <SiSupabase
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            Supabase
+                          </Badge>
+                          <Badge>
+                            <IoShield
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            Better-Auth
+                          </Badge>
+                          <Badge>
+                            <SiTailwindcss
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            TailwindCSS
+                          </Badge>
+                        </div>
+                      </div>
+                      <div className="justify-center items-center w-full flex sm:justify-end mt-2">
+                        <Image
+                          src="/cvision.png"
+                          alt="CVision"
+                          width={300}
+                          height={300}
+                        />
+                      </div>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
                     REDACT
                   </AccordionTrigger>
                   <AccordionContent>
@@ -363,7 +529,7 @@ export default function Page() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2">
+                <AccordionItem value="item-3">
                   <AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
                     UNIVERSE
                   </AccordionTrigger>
@@ -400,8 +566,8 @@ export default function Page() {
                               by connecting opportunities with talent.
                             </li>
                             <li>
-                              Supports the growth of students&apos; academic careers
-                              and contributes to research advancement.
+                              Supports the growth of students&apos; academic
+                              careers and contributes to research advancement.
                             </li>
                           </ul>
                         </div>
@@ -478,7 +644,7 @@ export default function Page() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3">
+                <AccordionItem value="item-4">
                   <AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
                     MEDIUM CLONE
                   </AccordionTrigger>
@@ -597,7 +763,7 @@ export default function Page() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4">
+                <AccordionItem value="item-5">
                   <AccordionTrigger className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl tracking-[0.2em] font-semibold">
                     CROP BUDDY
                   </AccordionTrigger>
